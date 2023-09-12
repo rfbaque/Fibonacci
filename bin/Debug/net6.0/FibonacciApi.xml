@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FibonacciApi</name>
+    </assembly>
+    <members>
+        <member name="T:FibonacciApi.Controllers.FibonacciSeries">
+            <summary>
+            Fibonacci controller...
+            </summary>
+        </member>
+        <member name="M:FibonacciApi.Controllers.FibonacciSeries.#ctor(FibonacciApi.IFibonacci)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="fibonacci"></param>
+        </member>
+        <member name="M:FibonacciApi.Controllers.FibonacciSeries.Get(System.Int32)">
+            <summary>
+            Returns an integer representing the Fibonacci series value requested by parameter.
+            </summary>
+            <param name="index">Fibonacci series index value to return.</param>
+            <returns>Fibonacci value that corresponds to the given index.</returns>
+        </member>
+        <member name="M:FibonacciApi.Fibonacci.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:FibonacciApi.Fibonacci.GetValueOfFibonacciSeries(System.Int32)">
+            <summary>
+            Returns an integer representing the Fibonacci series value requested by parameter. 
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FibonacciApi.IFibonacci.GetValueOfFibonacciSeries(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
